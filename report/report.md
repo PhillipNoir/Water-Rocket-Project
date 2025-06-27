@@ -1,9 +1,9 @@
 # Proyecto de Cohete Impulsado por Agua 🚀  
 **Materia: Métodos Numéricos**  
 **Universidad Autónoma Metropolitana**  
-**Trimestre: [XXI]**  
-**Autores: [Tu Nombre]**  
-**Profesor: [Nombre del profesor]**  
+**Trimestre: [25I]**  
+**Autores: [Sergio Felipe Gonzalez Cruz]**  
+**Profesor: [José Luis Nava Sanchez]**  
 **Fecha: [26 de junio de 2025]**
 
 ---
