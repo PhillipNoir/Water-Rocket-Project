@@ -1,4 +1,4 @@
-# Proyecto de Cohete Impulsado por Agua 🚀  
+# Proyecto de Cohete Impulsado por Agua   
 **Materia: Métodos Numéricos**  
 **Universidad Autónoma Metropolitana**  
 **Trimestre: [25I]**  
