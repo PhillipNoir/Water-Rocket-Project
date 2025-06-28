@@ -75,7 +75,71 @@ Diseñar, construir, lanzar y analizar experimentalmente un cohete impulsado por
 
 
 ## 4. Investigación sobre cohetes y aplicaciones modernas
-...
+
+### Historia Breve de los Cohetes
+
+El concepto de propulsión por reacción tiene raíces profundas en la historia de la humanidad. Aunque los cohetes modernos son productos de la física del siglo XX, sus principios fundamentales se conocen desde hace siglos.
+
+#### Orígenes tempranos
+
+El primer uso documentado de cohetes data del siglo XIII en China, donde se empleaban tubos de bambú rellenos con pólvora negra como armas militares rudimentarias (Sutton y Biblarz, 2017). Estas primeras versiones de cohetes eran esencialmente fuegos artificiales modificados, aprovechando la expansión de gases para generar empuje. Durante los siglos siguientes, el conocimiento sobre estas armas se difundió a través de Oriente Medio y Europa, siendo utilizadas en conflictos como la Guerra de los Cien Años.
+
+![image](https://github.com/user-attachments/assets/ee43714c-b1f2-4463-99b1-b63e438870e7)
+> _Título: "Imagen 1. Uso militar temprano de cohetes en la antigua China"_  
+
+#### La era moderna: fundamentos científicos
+
+Fue hasta el siglo XVII que comenzaron a formularse principios científicos que explican el funcionamiento de los cohetes. Isaac Newton enunció sus leyes del movimiento en 1687, estableciendo formalmente la **tercera ley de Newton**, que es el principio fundamental detrás de la propulsión de cohetes: *"a toda acción le corresponde una reacción de igual magnitud y en sentido opuesto" (Newton, 1687).
+
+Sin embargo, el desarrollo práctico de los cohetes como vehículos de propulsión científica no ocurrió sino hasta el siglo XX, con los trabajos pioneros de científicos como:
+
+- **Konstantin Tsiolkovsky** (Rusia), quien enunció en 1903 la ecuación del cohete y teorizó sobre el uso de cohetes para viajes espaciales (Tsiolkovsky, 1903).
+- **Robert Goddard** (EE.UU.), considerado el "padre del cohete moderno", quien en 1926 lanzó el primer cohete de combustible líquido exitoso (Goddard, 1926).
+- **Hermann Oberth** (Alemania), uno de los primeros en estudiar científicamente el uso de cohetes para alcanzar el espacio.
+
+> _Título: "Tabla 1. Contribuciones clave al desarrollo de la cohetería moderna"_
+
+| Científico             | País       | Aporte principal                            | Año destacado |
+|------------------------|------------|----------------------------------------------|---------------|
+| Konstantin Tsiolkovsky| Rusia      | Ecuación del cohete, viajes espaciales       | 1903          |
+| Robert Goddard         | EE.UU.     | Primer cohete de combustible líquido         | 1926          |
+| Hermann Oberth         | Alemania   | Fomento de la astronáutica                   | 1923          |
+
+#### Segunda Guerra Mundial y carrera espacial
+
+Durante la Segunda Guerra Mundial, Alemania desarrolló el **V-2**, el primer cohete balístico de largo alcance y el primero en alcanzar el espacio suborbital (más de 100 km de altitud) (Ordway y Sharpe, 1979). Aunque fue un arma devastadora, sentó las bases para la ingeniería aeroespacial moderna.
+
+Al finalizar la guerra, tanto Estados Unidos como la Unión Soviética reclutaron a científicos alemanes (como Wernher von Braun) para desarrollar sus propios programas espaciales, lo que dio inicio a la **carrera espacial** durante la Guerra Fría.
+
+![image](https://github.com/user-attachments/assets/62188a0d-578b-42c8-a352-14fd623f5e23)
+> _Título: "Imagen 2. Cohete V-2: precursor tecnológico del viaje espacial"_
+
+Durante las décadas siguientes, se lograron hitos como:
+
+- **Sputnik I** (1957): primer satélite artificial (URSS)
+- **Vostok I** (1961): primer humano en el espacio, Yuri Gagarin (URSS)
+- **Apolo 11** (1969): alunizaje del ser humano, Neil Armstrong (EE.UU.)
+
+![image](https://github.com/user-attachments/assets/6b51df62-2b0b-4815-bca8-cb4fc6ec2247)
+> _Título: "Imagen 3. Saturno V, uno de los cohetes más potentes jamás construidos"_
+
+#### Era contemporánea
+
+En el siglo XXI, el enfoque se ha desplazado hacia la reutilización, eficiencia y exploración interplanetaria. Empresas como **SpaceX**, **Blue Origin**, **Rocket Lab** y **Arianespace** están redefiniendo la industria espacial, con avances como:
+
+- Cohetes reutilizables (Falcon 9)
+- Motores de metano (Raptor)
+- Turismo espacial (New Shepard)
+- Misiones científicas y comerciales a Marte, la Luna y asteroides.
+
+> _Título: "Tabla 2. Clasificación moderna de cohetes por propósito"_
+
+| Nombre          | Tipo           | Propósito principal     | Reutilizable |
+|-----------------|----------------|--------------------------|--------------|
+| Falcon 9        | Orbital        | Lanzamiento satelital    | Sí           |
+| Ariane 5        | Orbital        | Ciencia/comercial        | No           |
+| New Shepard     | Suborbital     | Turismo espacial         | Sí           |
+| Electron        | Orbital ligero | Microsatélites           | Parcialmente |
 
 ## 5. Funcionamiento de un cohete de agua y elementos requeridos
 ...
@@ -127,9 +191,18 @@ Diseñar, construir, lanzar y analizar experimentalmente un cohete impulsado por
 
 Brown, D. (2023). *Tracker Video Analysis and Modeling Tool* (Versión 6.1.5) [Software]. Open Source Physics. https://physlets.org/tracker/
 
+Goddard, R. H. (1926). *A Method of Reaching Extreme Altitudes*. Smithsonian Institution.
+
 MathWorks. (2023). *MATLAB (R2023a)* [Software]. https://www.mathworks.com/products/matlab.html
+
+Newton, I. (1687). *Philosophiæ Naturalis Principia Mathematica*.
+
+Ordway, F. I., & Sharpe, M. R. (1979). *The Rocket Team*. Thomas Y. Crowell.
 
 Serway, R. A., & Jewett, J. W. (2013). *Physics for Scientists and Engineers* (9th ed.). Cengage Learning.
 
+Sutton, G. P., & Biblarz, O. (2017). *Rocket Propulsion Elements* (9th ed.). Wiley.
+
 Tipler, P. A., & Mosca, G. (2008). *Physics for Scientists and Engineers* (6th ed.). W. H. Freeman.
 
+Tsiolkovsky, K. E. (1903). *The Exploration of Cosmic Space by Means of Reaction Devices*
