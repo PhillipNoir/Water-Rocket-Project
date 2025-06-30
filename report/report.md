@@ -2,7 +2,7 @@
 **Materia: Métodos Numéricos**  
 **Universidad Autónoma Metropolitana**  
 **Trimestre: [25I]**  
-**Autores: [Sergio Felipe Gonzalez Cruz]**  
+**Autores: [Sergio Felipe Gonzalez Cruz, Miguel Ángel Solares Velázquez]**  
 **Profesor: [José Luis Nava Sanchez]**  
 **Fecha: [26 de junio de 2025]**
 
