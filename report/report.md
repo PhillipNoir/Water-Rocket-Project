@@ -141,11 +141,121 @@ En el siglo XXI, el enfoque se ha desplazado hacia la reutilización, eficiencia
 | New Shepard     | Suborbital     | Turismo espacial         | Sí           |
 | Electron        | Orbital ligero | Microsatélites           | Parcialmente |
 
+
 ## 5. Funcionamiento de un cohete de agua y elementos requeridos
-...
+
+### Principio de funcionamiento
+
+Un cohete de agua funciona bajo el mismo principio de **acción y reacción** descrito por la tercera ley de Newton. La botella actúa como una cámara de presión parcialmente llena de agua. Al presurizar el aire dentro de la botella y luego liberar su contenido por una boquilla estrecha, el agua es expulsada violentamente, generando un empuje que impulsa la botella en la dirección opuesta (Newton, 1687).
+
+La propulsión es predominantemente **impulsiva** y de **corta duración**, generando una aceleración inicial considerable. Este tipo de cohete se categoriza como un **sistema de propulsión no térmica**, ya que no utiliza combustión, sino compresión neumática y la expulsión de masa líquida.
+
+![image](https://github.com/user-attachments/assets/dba7b430-80cc-41be-8254-a048ed9f8bd4)
+> _Título: "Imagen 4. Funcionamiento de un cohete de agua"_  
+
+### Componentes del cohete de agua
+
+A continuación se describen los elementos esenciales para la construcción de un cohete de agua funcional:
+
+| Componente             | Función principal                                            |
+|------------------------|--------------------------------------------------------------|
+| Botella plástica PET   | Cuerpo del cohete y cámara de presión                        |
+| Agua                   | Masa reactiva expulsada para generar empuje                  |
+| Aire comprimido        | Fuente de energía almacenada (mediante una bomba manual)     |
+| Boquilla (tapa o adaptador) | Controla el flujo de salida del agua, optimizando empuje    |
+| Aletas                 | Estabilización durante el vuelo                              |
+| Nariz o cono frontal   | Mejora la aerodinámica y reduce el arrastre                  |
+| Plataforma de lanzamiento | Sujeta el cohete y permite presurización segura             |
+| Sistema de liberación  | Mecanismo para activar el despegue de forma controlada       |
+
+> _Título: "Tabla 3. Componentes y funciones del cohete de agua"_ 
+> Fuente: elaboración propia con base en (Schlichting y Truckenbrodt, 2000), (NASA, 2019)
+
+### Ciclo de operación
+
+1. **Carga del agua**: Se llena entre 30%–50% de la capacidad del cuerpo (1-2 L es común).
+2. **Presurización**: Se inyecta aire a través de una válvula con bomba manual o compresor.
+3. **Lanzamiento**: Se libera el seguro de la plataforma. La presión del aire expulsa el agua.
+4. **Ascenso**: El cohete se eleva hasta alcanzar su apogeo (pico de trayectoria).
+5. **Caída libre**: El cohete desciende, pudiendo o no incluir paracaídas de recuperación.
+
+![image](https://github.com/user-attachments/assets/4dc6c508-3eca-4b13-bb59-0622ae8b8d65)
+> _Título: "Imagen 5. Secuencia operativa típica de un cohete de agua escolar"_  
+
+
+### Variables críticas en el diseño
+
+- **Relación agua/aire**: Influye directamente en el impulso específico.
+- **Tamaño de boquilla**: Controla el caudal de salida; afecta empuje y duración.
+- **Masa total y forma**: Determinan aceleración, arrastre y estabilidad.
+- **Presión máxima**: Limitada por la resistencia del PET (normalmente <100 psi).
+
+> _Título: "Tabla 4. Influencia de parámetros de diseño sobre el rendimiento"
+> _Fuente: adaptación de (Turner, 2008)_
+
+| Parámetro                | Aumento →                 | Disminución →            |
+|--------------------------|---------------------------|---------------------------|
+| Porcentaje de agua       | Mayor empuje inicial      | Menor tiempo de vuelo     |
+| Tamaño de boquilla       | Mayor caudal, menor duración | Menor empuje total    |
+| Masa total               | Mayor inercia, menor altura | Mayor aceleración     |
+| Presión interna          | Mayor empuje               | Menor rendimiento         |
+
 
 ## 6. Principios físicos involucrados
-...
+
+El funcionamiento de un cohete impulsado por agua se explica mediante diversos principios fundamentales de la física clásica, especialmente de la **mecánica newtoniana**, la **hidrodinámica** y la **termodinámica**.
+
+### Tercera Ley de Newton: Acción y reacción
+
+La base del movimiento del cohete de agua es la **tercera ley de Newton**, que establece que a toda acción corresponde una reacción de igual magnitud y en sentido opuesto. En este caso, la **acción** es la expulsión del agua por la boquilla del cohete y la **reacción** es el impulso que recibe el cohete en dirección contraria (Newton, 1687).
+
+![image](https://github.com/user-attachments/assets/3b1ec471-b427-4f60-88b4-e03e1f1ef15e)
+
+
+### Conservación de la cantidad de movimiento
+
+Durante la expulsión del fluido, se conserva la **cantidad de movimiento lineal (momento lineal)** del sistema cohete + agua. La expulsión de masa (agua) con una cierta velocidad genera un cambio igual y opuesto en la velocidad del cohete (Halliday, Resnick & Walker, 2014).
+
+![image](https://github.com/user-attachments/assets/2e6cf209-1a76-4d27-a795-193132b8410e)
+
+
+Este intercambio impulsa el cohete hacia arriba y permite modelar su comportamiento usando ecuaciones de impulso variable.
+
+
+### Ley de los gases ideales y presión
+
+El cohete se presuriza al inyectar aire comprimido dentro de la botella. Este aire actúa como un gas ideal y, al expandirse, transfiere energía al agua. Según la **ley de los gases ideales**:
+
+![image](https://github.com/user-attachments/assets/f2cbce00-06fd-46db-8a7e-43146dda3cf4)
+
+
+donde una disminución súbita en volumen (al liberar el agua) provoca un aumento en la presión y, por tanto, en la energía cinética del fluido expulsado (Young & Freedman, 2019).
+
+### Energía cinética y potencial
+
+Durante el ascenso, el cohete convierte parte de la energía liberada en **energía cinética** y, posteriormente, en **energía potencial gravitatoria**:
+
+![image](https://github.com/user-attachments/assets/4bd5051b-1ad8-4665-8584-bbebe9eb04a2)
+
+
+La altura máxima (apogeo) es alcanzada cuando la velocidad vertical se reduce a cero y toda la energía se encuentra en forma de \( U_g \) (Tipler & Mosca, 2008).
+
+
+### Resistencia del aire y fuerzas en vuelo
+
+Durante el vuelo, el cohete también está sujeto a **resistencia del aire (arrastre)**, la cual se modela comúnmente como:
+
+![image](https://github.com/user-attachments/assets/731032c2-f0b6-4be9-b7c4-d041fabe3b8a)
+
+
+Donde:
+- C_d = coeficiente de arrastre (≈ 0.75 a 1.0 para cohetes caseros)
+- rho = densidad del aire
+- A = área frontal del cohete
+- v = velocidad del cohete
+
+Este efecto debe considerarse para un modelo computacional más realista (Turner, 2008).
+
 
 ## 7. Propuesta de construcción y lista de materiales
 ...
@@ -193,11 +303,15 @@ Brown, D. (2023). *Tracker Video Analysis and Modeling Tool* (Versión 6.1.5) [S
 
 Goddard, R. H. (1926). *A Method of Reaching Extreme Altitudes*. Smithsonian Institution.
 
+Halliday, D., Resnick, R., & Walker, J. (2014). *Fundamentals of Physics* (10th ed.). Wiley.
+
 MathWorks. (2023). *MATLAB (R2023a)* [Software]. https://www.mathworks.com/products/matlab.html
 
 Newton, I. (1687). *Philosophiæ Naturalis Principia Mathematica*.
 
 Ordway, F. I., & Sharpe, M. R. (1979). *The Rocket Team*. Thomas Y. Crowell.
+
+Schlichting, H., & Truckenbrodt, E. (2000). *Aerodynamics of the Water Rocket*. Springer.
 
 Serway, R. A., & Jewett, J. W. (2013). *Physics for Scientists and Engineers* (9th ed.). Cengage Learning.
 
@@ -205,4 +319,9 @@ Sutton, G. P., & Biblarz, O. (2017). *Rocket Propulsion Elements* (9th ed.). Wil
 
 Tipler, P. A., & Mosca, G. (2008). *Physics for Scientists and Engineers* (6th ed.). W. H. Freeman.
 
+Turner, M. J. (2008). *Rocket and Spacecraft Propulsion: Principles, Practice and New Developments*. Springer.
+
 Tsiolkovsky, K. E. (1903). *The Exploration of Cosmic Space by Means of Reaction Devices*
+
+Young, H. D., & Freedman, R. A. (2019). *University Physics with Modern Physics* (15th ed.). Pearson.
+
