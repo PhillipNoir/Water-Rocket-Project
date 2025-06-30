@@ -26,6 +26,7 @@ Proyecto de cohete de agua con construcción física, análisis en Tracker y sim
 
 ## 👨‍💻 Autores
 - Sergio Felipe Gonzalez Cruz (PhillipNoir)
+- Miguel Ángel Solares Velázquez
 
 ## 📄 Licencia
 Este proyecto está licenciado bajo la [MIT License](LICENSE).
