@@ -10,7 +10,8 @@ Proyecto de cohete de agua con construcción física, análisis en Tracker y sim
 *(Agregar rutas y carpetas del repositorio cuando sea creado).
 
 ## 📸 Vista previa
-*(Poner una imagen del cohete cuando esté construido)*
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/b44335a2-fc79-4440-bf40-2e75667d91c0" />
+
 
 ## 🔧 Tecnologías usadas
 - [Tracker](https://physlets.org/tracker/)
@@ -27,6 +28,7 @@ Proyecto de cohete de agua con construcción física, análisis en Tracker y sim
 ## 👨‍💻 Autores
 - Sergio Felipe Gonzalez Cruz (PhillipNoir)
 - Miguel Ángel Solares Velázquez
+- Alejandro Martínez Cortés
 
 ## 📄 Licencia
 Este proyecto está licenciado bajo la [MIT License](LICENSE).
