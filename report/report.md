@@ -2,7 +2,7 @@
 **Materia: Métodos Numéricos**  
 **Universidad Autónoma Metropolitana**  
 **Trimestre: [25I]**  
-**Autores: [Sergio Felipe Gonzalez Cruz, Miguel Ángel Solares Velázquez]**  
+**Autores: [Sergio Felipe Gonzalez Cruz, Miguel Ángel Solares Velázquez, Alejandro Martinez Cortés]**  
 **Profesor: [José Luis Nava Sanchez]**  
 **Fecha: [26 de junio de 2025]**
 
@@ -20,15 +20,14 @@
 8. [Pruebas experimentales con Tracker](#6-pruebas-experimentales-con-tracker)  
 9. [Determinación de altura con modelo cinemático](#7-determinación-de-altura-con-modelo-cinemático)  
 10. [Análisis de video con variables físicas](#8-análisis-de-video-con-variables-físicas)  
-11. [Gráficas obtenidas con Tracker](#9-gráficas-obtenidas-con-tracker)  
-12. [Modelación computacional en MATLAB](#10-modelación-computacional-en-matlab)  
-13. [Comparación de resultados: Tracker vs Simulación](#11-comparación-de-resultados-tracker-vs-simulación)  
-14. [Modelación físico-matemática-computacional](#12-modelación-físico-matemática-computacional)  
-15. [Resultados alcanzados](#13-resultados-alcanzados)  
-16. [Reflexión individual](#14-reflexión-individual)  
-17. [Conclusiones generales](#15-conclusiones-generales)  
-18. [Conclusiones individuales](#16-conclusiones-individuales)  
-19. [Bibliografía](#17-bibliografía)
+11. [Modelación computacional en MATLAB](#10-modelación-computacional-en-matlab)  
+12. [Comparación de resultados: Tracker vs Simulación](#11-comparación-de-resultados-tracker-vs-simulación)  
+13. [Modelación físico-matemática-computacional](#12-modelación-físico-matemática-computacional)  
+14. [Resultados alcanzados](#13-resultados-alcanzados)  
+15. [Reflexión individual](#14-reflexión-individual)  
+16. [Conclusiones generales](#15-conclusiones-generales)  
+17. [Conclusiones individuales](#16-conclusiones-individuales)  
+18. [Bibliografía](#17-bibliografía)
 
 ---
 
@@ -258,46 +257,148 @@ Este efecto debe considerarse para un modelo computacional más realista (Turner
 
 
 ## 7. Propuesta de construcción y lista de materiales
-...
+El cohete ha sido diseñado utilizando materiales reciclables, accesibles y ligeros, priorizando la funcionalidad, estabilidad y aerodinámica. La estructura principal está conformada por **dos botellas de plástico PET de 1.75 litros**, unidas por sus bocas para aumentar el volumen total. Esta modificación permite una mayor capacidad de almacenamiento de agua y aire comprimido, optimizando el empuje durante el lanzamiento.
+
+La sección frontal cuenta con una **punta cónica de aluminio**, cuya forma aerodinámica minimiza la resistencia al avance. El cuerpo del cohete está recubierto con **cartulina blanca**, tanto por motivos estéticos como para mejorar su visibilidad en video durante las pruebas experimentales. Para garantizar la estabilidad en vuelo, se han incorporado **tres aletas simétricas** fabricadas con **papel ilustración**, dispuestas equidistantemente en la parte inferior del fuselaje.
+
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/10119032-7d70-4a1d-8411-7ccc8b9af9a1" />
+> _Título: "Imagen 6. Cohete armado."_  
+
+### Lista de Materiales Utilizados
+
+- 2 botellas plásticas PET de refresco (1.75 L cada una)
+- 1 punta cónica de aluminio (para mejorar la aerodinámica)
+- Cartulina blanca (recubrimiento externo del cuerpo del cohete)
+- Papel ilustración (para la construcción de las aletas estabilizadoras)
+- Cinta adhesiva resistente
+- Tapón con válvula (para el sistema de presurización)
+- Agua (como masa reactiva)
+- Bomba de aire manual (para generar presión de lanzamiento)
+
+<img width="723" height="357" alt="image" src="https://github.com/user-attachments/assets/28ae5006-e1dd-4df8-be6e-12e2079228f3" />
+> _Título: "Imagen 7. Diagrama del cohete."_  
+
+
+> **Nota**: El diseño cumple con las especificaciones del concurso: uso exclusivo de botellas no retornables de PET, sin componentes electrónicos ni materiales metálicos en zonas estructurales críticas.
 
 ## 8. Pruebas experimentales con Tracker
-...
+
+<img width="1361" height="616" alt="image" src="https://github.com/user-attachments/assets/231c4c72-5190-43b0-8a06-29c4906ca641" />
+> _Título: "Imagen 8. Seguimiento del cohete en el software tracker."_
+
+
+<img width="793" height="515" alt="image" src="https://github.com/user-attachments/assets/ba84e90b-93f5-4068-b58c-a3ec0dc10c1e" />
+> _Título: "Imagen 9. Gráfica lineal obtenida en Tracker."_
+
+
+<img width="794" height="518" alt="image" src="https://github.com/user-attachments/assets/08789c50-4dc2-42b1-b702-49d6f2291b80" />
+> _Título: "Imagen 10. Gráfica parabólica obtenida en Tracker."_
+
+
+<img width="768" height="1033" alt="image" src="https://github.com/user-attachments/assets/8996f049-d3a7-4b02-8e82-3833abd719c6" />
+> _Título: "Tabla 5. Tabla de variables obtenida en Tracker."
+
+
+
 
 ## 9. Determinación de altura con modelo cinemático
-...
+Aplicando la ecuación del movimiento vertical uniformemente acelerado:
+
+<img width="155" height="47" alt="image" src="https://github.com/user-attachments/assets/22de7335-cc56-4e74-bbd8-7b02b05b63d8" />
+
+
+Con una velocidad inicial vertical de v0= 4.68 m/s (registros de la tabla) obtenemos lo siguiente:
+
+<img width="223" height="54" alt="image" src="https://github.com/user-attachments/assets/cad5cc9a-cff7-4624-9d16-899d921d5d68" />
+
 
 ## 10. Análisis de video con variables físicas
-- Posición: `x`, `y`
-- Velocidad: `vx`, `vy`
-- Aceleración: `ax`, `ay`
-- Energía cinética: `K`
-- Energía potencial gravitacional: `Ug`
 
-## 11. Gráficas obtenidas con Tracker
-...
+- x(t): Al principio constante, por lo que no hay un movimiento horizontal. Después va a disminuir, ya que el objeto se mueve un poquito a la izquierda (por la toma del vídeo y la gráfica de puntos).
+- y(t): En el punto y, definitivamente sube por un tiempo considerable.
+- vx(t): Según los datos de la tabla, oscila entre 0 y negativo, por lo que hay un pequeño movimiento horizontal hacia la izquierda.
+- vy(t): Comienza primero una subida, a lo que posteriormente, hay un decremento de esta velocidad en el eje.
+- ax(t): Hay un ligero cambio de signo, lo que implica pequeños ajustes en aceleración horizontal.
+- ay(t): Se mantiene cerca de valores negativos (de entre -7 a -15 m/s²), más altos de lo que en promedio se estaría esperando.
+- K(t) (Energía cinética): Aumenta hasta un pico (cuando sube), luego disminuye cuando el objeto se detiene.
+- Ug (Energía potencial gravitatoria): Aquí esta energía va disminuyendo con el paso del tiempo, ya que está depende de la altura alcanzada en el eje y. 
 
-## 12. Modelación computacional en MATLAB
-...
+## 11. Modelación computacional en MATLAB
 
-## 13. Comparación de resultados: Tracker vs Simulación
-...
+<img width="934" height="3136" alt="image" src="https://github.com/user-attachments/assets/7c02e3ab-e9d8-4f85-a566-fc93567b2044" />
+> _Título: "Imagen 11. Valores obtenidos del modelado en Matlab."_
 
-## 14. Modelación físico-matemática-computacional
-...
+<img width="524" height="389" alt="image" src="https://github.com/user-attachments/assets/a7f03801-b7ba-45fb-9105-c5069049c449" />
+> _Título: "Imagen 12. Gráficas obtenidas en Matlab."_
 
-## 15. Resultados alcanzados
-...
 
-## 16. Reflexión individual
-...
 
-## 17. Conclusiones generales
-...
+## 12. Comparación de resultados: Tracker vs Simulación
 
-## 18. Conclusiones individuales
-...
+Al comparar los gráficos obtenidos con el programa Tracker y los producidos a través de la simulación en MATLAB, se notó una gran coincidencia en los resultados. En el gráfico que muestra la altura frente al tiempo, ambas fuentes presentan el mismo comportamiento parabólico hacia abajo, lo que indica que el cohete comienza a caer desde una altura máxima de aproximadamente 3. 2 metros. Los gráficos de velocidad también son coherentes, mostrando valores negativos que representan la caída del cohete, y MATLAB reproduce con precisión las variaciones que se ven en Tracker. 
+En lo que respecta a la aceleración, ambas gráficas muestran cambios bruscos, debido al ruido que proviene del cálculo numérico de derivadas con datos discretos. Esto indica que la aceleración obtenida directamente de Tracker puede no ser completamente confiable, por lo que sería aconsejable usar un modelo ideal con aceleración constante para obtener análisis más precisos. 
+Por último, los gráficos de energía cinética, potencial y total evidencian una buena conservación de energía en ambas plataformas. La energía potencial disminuye cuando el cohete desciende, mientras que la energía cinética aumenta; la energía mecánica total permanece bastante constante, con pequeñas oscilaciones que se pueden atribuir a errores en el experimento o a leves pérdidas no modeladas.
 
-## 19. Bibliografía
+## 13. Modelación fisicomatemática-computacional
+
+Esto se basa en el estudio del movimiento rectilíneo con aceleración constante bajo la gravedad, después de que el empuje inicial ha terminado. En este punto del vuelo, el cohete no recibe más fuerza de impulso, y su movimiento está determinado por la ecuación cinemática vertical:
+
+<img width="180" height="53" alt="image" src="https://github.com/user-attachments/assets/70b78b3c-8c16-4513-b1ef-e50244f9cb43" />
+
+donde y0 es la altura inicial, v0 es la velocidad vertical inicial (extraída de los datos de Tracker), g es la aceleración debida a la gravedad en el lugar (aproximadamente 9. 81 m/s^2), y t es el tiempo que ha pasado. 
+Con la ayuda de MATLAB, se aplicó esta ecuación para imitar el movimiento del cohete en su etapa de descenso. Además, se calcularon y representaron gráficamente variables importantes como posición, velocidad, aceleración y las energías cinética y potencial, combinando así los principios de la física con los datos obtenidos experimentalmente en un modelo computarizado. Esta simulación permitió comprobar los resultados obtenidos con Tracker, ayudando a entender el comportamiento del sistema físico desde un enfoque tanto teórico como numérico.
+
+<img width="441" height="382" alt="image" src="https://github.com/user-attachments/assets/e42d7f61-30dc-4419-880b-60cff819d5ea" />
+
+<img width="690" height="1432" alt="image" src="https://github.com/user-attachments/assets/2062537a-bfd9-413b-8efb-83995b2fb5b6" />
+
+
+
+
+## 14. Resultados alcanzados
+
+Se determina que el cohete alcanzó una altura máxima cercana a 4.09 metros, siendo superior que la calculada analíticamente, comenzando con una fase de aceleración intensa que muestra que hubo un empuje activo (en este caso, por la presión). El análisis indica un comportamiento que se asemeja al movimiento parabólico, con una transición clara entre la subida impulsada y la caída libre. Las alteraciones en la aceleración sugieren que fuerzas variables actuaron durante el vuelo, posiblemente debido a la calidad del medio de video, considerando que se realiza una aproximación. La simulación en MATLAB logró reproducir la trayectoria observada en Tracker, lo que confirma tanto la recolección de datos como el modelo físico planteado. En general, los resultados demuestran una descripción precisa del movimiento y ayudan a entender las diferentes fases del vuelo del cohete.
+
+## 15. Reflexión individual
+
+[Sergio Felipe Gonzalez Cruz]
+
+Como estudiante de Ingeniería Electrónica, este proyecto representó un desafío enriquecedor fuera de mi zona de especialidad. A pesar de no tener formación en diseño aeronáutico o mecánico, me vi obligado a integrar conocimientos de física, dinámica de fluidos, modelación matemática y análisis computacional. Pude comprender mejor cómo los principios abstractos que estudiamos en clase se manifiestan de forma tangible en un sistema real como un cohete de agua.
+El uso del software Tracker y MATLAB me permitió fortalecer mi competencia en herramientas de análisis experimental y simulación, áreas fundamentales para cualquier ingeniero moderno. Además, el trabajo en equipo, la organización del repositorio en GitHub y la documentación técnica en Markdown me brindaron la oportunidad de aplicar buenas prácticas de ingeniería en un entorno colaborativo.
+Este proyecto no solo reforzó mis habilidades técnicas, sino que también alimentó mi interés por la interdisciplinariedad entre la ingeniería mecánica, la electrónica y la simulación numérica, lo que sin duda enriquecerá mi formación profesional.
+
+
+[Miguel Angel Solares Velazquez]
+
+La presente actividad facilitó la comprensión práctica de los principios físicos involucrados, especialmente la tercera ley de Newton, en un sistema dinámico real como lo es un cohete propulsado por agua. A través de esta experiencia, fue posible integrar conocimientos de física, diseño técnico y análisis computacional para el desarrollo de un prototipo funcional. El empleo de herramientas especializadas como Tracker y MATLAB permitió visualizar y modelar el movimiento del cohete, fortaleciendo así la comprensión de conceptos fundamentales de cinemática y dinámica, los cuales previamente se habían abordado de manera exclusivamente teórica. Ademas esta actividad contribuyó al desarrollo de habilidades precisas en la recolección de datos y en el diseño estructural, competencias esenciales para la ejecución de proyectos en el ámbito científico y de ingeniería.
+
+[Alejandro Martinez Cortés]
+
+En lo personal, la actividad me dio la oportunidad de entender de manera práctica cómo se utiliza la física para analizar movimientos reales, en particular el movimiento vertical con aceleración variable. Aprendí a usar Tracker para recoger datos experimentales y compararlos con un modelo en MATLAB, lo que me ayudó a reforzar ideas como velocidad, aceleración, energía cinética y trayectoria. También me quedó claro que los modelos teóricos pueden coincidir bastante con la realidad, pero siempre hay elementos como errores de medición o fuerzas no consideradas (como la resistencia del aire o la calidad del vídeo a analizar) que influyen en los resultados.
+
+## 16. Conclusiones generales
+
+La realización de este proyecto permitió aplicar de manera integrada diversos conocimientos adquiridos en el área de métodos numéricos, física y modelación matemática. Desde el diseño y construcción del cohete, hasta la recolección de datos experimentales y su posterior análisis computacional, se logró una experiencia formativa completa que fomentó tanto el pensamiento analítico como la creatividad.
+El uso de herramientas como Tracker y MATLAB facilitó la validación empírica del modelo físico propuesto, permitiendo identificar desviaciones, errores sistemáticos y limitaciones del experimento. Además, el proceso de documentación técnica y trabajo en equipo contribuyó a reforzar habilidades profesionales clave en la ingeniería actual.
+En síntesis, el proyecto del cohete impulsado por agua no solo cumplió con los objetivos académicos, sino que se convirtió en una oportunidad valiosa para desarrollar habilidades transversales que serán de utilidad en futuros desafíos profesionales.
+
+## 17. Conclusiones individuales
+
+[Sergio Felipe Gonzalez Cruz]
+- Aprendí a traducir principios físicos y matemáticos en modelos computacionales que pueden ser contrastados con datos experimentales reales.
+- Mejoré mi capacidad para documentar proyectos de forma clara y profesional utilizando herramientas como Markdown y GitHub.
+- Reafirmé la importancia de considerar restricciones prácticas y normativas de diseño al proponer soluciones técnicas.
+- Comprendí que el pensamiento interdisciplinario es esencial para abordar problemas complejos incluso fuera de mi campo directo de estudio.
+
+[Miguel Angel Solares Velazquez]
+
+La construcción y el análisis del cohete impulsado por chorro de agua no solo consolidaron los conocimientos teóricos de física y modelación computacional, sino que también promovieron el desarrollo de la creatividad, la capacidad para la resolución sistemática de problemas y el trabajo metódico. La integración de teoría, práctica y tecnología en esta actividad generó una experiencia educativa integral, evidenciando cómo el aprendizaje experimental constituye una herramienta eficaz para profundizar en la comprensión de fenómenos físicos.
+
+[Alejandro Martinez Cortés]
+
+Finalmente, considero que esta actividad fue muy valiosa porque me mostró que la física va más allá de las ecuaciones, pudiendo ser utilizada para comprender cosas de la vida real, que no únicamente se quedan en la parte teórica. Asimismo, el uso de programas como Tracker y MATLAB me ayudó no solo al dominio de software (importante para mi carrera), sino para hacer una documentación correcta, algo que en trabajos de investigación continuaré haciendo. 
+
+## 18. Bibliografía
 
 Brown, D. (2023). *Tracker Video Analysis and Modeling Tool* (Versión 6.1.5) [Software]. Open Source Physics. https://physlets.org/tracker/
 
